@@ -18,6 +18,7 @@ type
     Label2: TLabel;
     Label3: TLabel;
     procedure Button1Click(Sender: TObject);
+    procedure Panel1Click(Sender: TObject);
   private
     { Private-Deklarationen }
   public
@@ -75,5 +76,13 @@ begin
 end;
 
 
+
+procedure TForm1.Panel1Click(Sender: TObject);
+
+var
+  test: integer;
+begin
+
+end;
 
 end.
